@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Aly Fluckey's Website</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="index.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="sly.js"></script>
-<script src="index.js"></script>
+  <title>Aly Fluckey's Website</title>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="chocolat.css">
 </head>
 
 <body>
@@ -19,92 +17,115 @@
     </nav>
 
     <section class="intro">
-        <h1>Hi! My name is Aly Fluckey</h1>
-        <img src="images/aly.jpg" height="200">
-        <p>I am a front-end developer/designer looking for a new gig! I live in Columbus, Ohio and grew up near Des Moines, Iowa. I'm a creative, intuitive and empathetic person who craves a meaningful existence. I am always improving and I try to live my life without fear. My hobbies include traveling, painting (oil and acrylic), glass blowing, and seeing my favorite bands live. I may have a small obsession with lava lamps.</p>
-        <p>More about me and examples of my work can be found below.</p>
+      <h1>Hi! My name is Aly Fluckey</h1>
+      <img src="images/aly.jpg" height="200">
+      <p>I am a front-end developer/designer looking for a new gig! I live in Columbus, Ohio and grew up near Des Moines, Iowa. I'm a creative, intuitive and empathetic person who craves a meaningful existence. I am always improving and I try to live my life without fear. My hobbies include traveling, painting (oil and acrylic), glass blowing, and seeing my favorite bands live. I may have a small obsession with lava lamps.</p>
+      <p>More about me and examples of my work can be found below.</p>
     </section>
 
     <hr>
 
-    <a id="my-story">
-      <section class="my-story">
-        <h1>My Story</h1>
-        <p>I started my career in software development when I moved from Des Moines, Iowa to Columbus, Ohio in early 2012 to become a 
-        <a href="http://en.wikipedia.org/wiki/COBOL">COBOL</a> developer for Nationwide Insurance. After 6 months at Nationwide, I learned a bit about a lot of different technologies, 
-        including .NET, Ruby Automation with Cucumber, and SQL. I liked Ruby and started teaching myself on the side, and soon after took an 
-        Intro to Programming in Ruby class with <a href="http://www.girldevelopit.com/chapters/columbus">Girl Develop It</a> and met many amazing people in the Ruby community and was hooked. 
-        I found out about an apprenticeship opening at a local Ruby on Rails consultancy, <a href="http://www.neo.com/">Neo Innovation</a>, 
-        and applied. They took me in and taught me the ways of Ruby and Rails and I was hired on as a full-time developer in May of 2013. 
-        Since that time, I have worked with many different types of clients, from enterprises to startups, all in an agile and lean environment. 
-        I have been a part of almost every stage of software development from client interviews and requirements gathering (I love it!), to backend development, 
-        to creating high-res design mockups and turning them into code. </p>
-      </section>
-    </a>
+    <section class="my-story" id="my-story">
+      <h1>My Story</h1>
+      <p>I started my career in software development when I moved from Des Moines, Iowa to Columbus, Ohio in early 2012 to become a 
+      <a href="http://en.wikipedia.org/wiki/COBOL">COBOL</a> developer for Nationwide Insurance. After 6 months at Nationwide, I learned a bit about a lot of different technologies, 
+      including .NET, Ruby Automation with Cucumber, and SQL. I liked Ruby and started teaching myself on the side, and soon after took an 
+      Intro to Programming in Ruby class with <a href="http://www.girldevelopit.com/chapters/columbus">Girl Develop It</a> and met many amazing people in the Ruby community and was hooked. 
+      I found out about an apprenticeship opening at a local Ruby on Rails consultancy, <a href="http://www.neo.com/">Neo Innovation</a>, 
+      and applied. They took me in and taught me the ways of Ruby and Rails and I was hired on as a full-time developer in May of 2013. 
+      Since that time, I have worked with many different types of clients, from enterprises to startups, all in an agile and lean environment. 
+      I have been a part of almost every stage of software development from client interviews and requirements gathering (I love it!), to backend development, 
+      to creating high-res design mockups and turning them into code. </p>
+    </section>
 
     <hr>
 
-    <a id="my-work">
-      <section class="my-work">
-        <h1>My Work</h1>
-        <!-- Neo.com --!>
-        <!-- ICANN.org/stewardship --!>
-        <!-- ICANN.org --!>
-        <!-- Wireframes --!>
-        <!-- Speaking --!>
-        <!-- Teaching/TAing --!>
+    <section class="my-work" id="my-work">
+      <h1>My Work</h1>
+      <!-- Neo.com --!>
+      <!-- ICANN.org/stewardship --!>
+      <!-- ICANN.org --!>
+      <!-- Wireframes --!>
+      <!-- Speaking --!>
+      <!-- Teaching/TAing --!>
 
-        <div class="frame">
-          <ul class="slidee">
-            <li class="neo">
-              <h1>Neo.com<h1>
-              <img src="images/neo.png" height="300px">
+      <div class="backward"><i class="fa fa-angle-left"></i></div>
+      <div class="forward"><i class="fa fa-angle-right"></i></div>
+      <div class="frame">
+        <ul class="slidee">
+          <li class="neo">
+            <h1>Neo.com<h1>
+            <a href="http://www.neo.com" target="_blank"><img src="images/neo.png" height="300px" class="header-image"></a>
+            <p><strong>Role:</strong> Front-end Developer</p>
+            <p><strong>Responsibilities: </strong> helped to build and style the application, with attention to multiple browsers/devices and responsiveness </p>
+            <p><strong>Challenges: </strong>Middleman app instead of Rails, new technologies</p>
+            <p><strong>Technologies: </strong>Middleman, Prismic.io, Bourbon, Slim</p>
+          </li>
+          <li class="icann-stewardship">
+            <h1>ICANN.org Stewardship Pages<h1>
+            <a href="https://www.icann.org/stewardship"><img src="images/icann-stewardship.png" height="250px" class="header-image"></a>
+            <div class="icann-stewardship-info">
               <p><strong>Role:</strong> Front-end Developer</p>
-              <p><strong>Responsibilities</strong> helped to build and style the application, with attention to multiple browsers/devices and responsiveness </p>
-              <p><strong>Challenges:</strong>Middleman app instead of Rails, new technologies</p>
-              <p><strong>Responsibilities</strong> helped to build and style the application, with attention to multiple browsers/devices and responsiveness </p>
-              <p><strong>Technologies</strong>Middleman, Prismic.io, Bourbon, Slim</p>
-            </li>
-            <li>
-              <h2>This in here...</h2>
-              <p>...can be anything. <strong>Anything!</strong></p>
-            </li>
-          </ul>
-        </div>
+              <p><strong>Responsibilities: </strong> helped to build and style the application, with attention to multiple browsers/devices and responsiveness </p>
+              <p><strong>Challenges: </strong>Middleman app instead of Rails, new technologies</p>
+              <p><strong>Technologies: </strong>Middleman, Prismic.io, Bourbon, Slim</p>
+              <div id="icann-stewardship-thumbnails">
+                <a class="chocolat-image" href="images/icann1.png" title="image title a">
+                  <img src="images/icann1.png" height="120px"></a>
+                <a class="chocolat-image" href="images/icann2.png" title="image title b">
+                  <img src="images/icann2.png" height="120px"></a>
+                <a class="chocolat-image" href="images/icann3.png" title="image title b">
+                  <img src="images/icann3.png" height="120px"></a>
+                <a class="chocolat-image" href="images/icann4.png" title="image title b">
+                  <img src="images/icann4.png" height="120px"></a>
+                <a class="chocolat-image" href="images/icann5.png" title="image title b">
+                  <img src="images/icann5.png" height="120px"></a>
+              </div>
+            </div>
+          </li>
 
-        <div class="scrollbar">
-          <div class="handle">
-            <div class="mousearea"></div>
-          </div>
+          <li class="icann">
+            <h1>ICANN.org<h1>
+            <a href="https://www.icann.org/" target="_blank"><img src="images/icann.png" height="300px" class="header-image"></a>
+            <p><strong>Role:</strong> Front-end Developer</p>
+            <p><strong>Responsibilities: </strong> build new features, fix bugs, improve website responsiveness</p>
+            <p><strong>Technologies: </strong>Rails, Drupal, Slim, Neat, ElasticSearch</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="scrollbar">
+        <div class="handle">
+          <div class="mousearea"></div>
         </div>
-      </section>
-    </a>
+      </div>
+    </section>
 
     <hr>
 
-    <a id="blog">
-      <section class="blog">
-        <h1>Blog</h1>
-        <p>Coming soon! My blog is currently under construction. Check back soon!</p>
-      </section>
-    </a>
+    <section class="blog" id="blog">
+      <h1>Blog</h1>
+      <p>Coming soon! My blog is currently under construction. Check back soon!</p>
+    </section>
 
     <hr>
 
-    <a id="contact">
-      <section class="contact">
-        <h1>Contact</h1>
-        <i class="fa fa-github">
-          <a href="https://github.com/wtfluckey">GitHub</a>
-        </i>
-        <a href="https://twitter.com/wtfluckey">Twitter</a>
-        <a href="http://instagram.com/wtfluckey">Instagram</a>
-        <a href="http://thiselectricity.tumblr.com">Tumblr</a>
-        <a href="mailto:fluckeya@gmail.com?Subject=Hello!" target="_top">Email</a>
-      </section>
-    </a>
+    <section class="contact" id="contact">
+      <h1>Contact</h1>
+      <i class="fa fa-github">
+        <a href="https://github.com/wtfluckey">GitHub</a>
+      </i>
+      <a href="https://twitter.com/wtfluckey">Twitter</a>
+      <a href="http://instagram.com/wtfluckey">Instagram</a>
+      <a href="http://thiselectricity.tumblr.com">Tumblr</a>
+      <a href="mailto:fluckeya@gmail.com?Subject=Hello!" target="_top">Email</a>
+    </section>
   </div>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="sly.js"></script>
+  <script src="chocolat.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

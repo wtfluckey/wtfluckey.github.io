@@ -27,12 +27,16 @@ nav a {
 }
 
 section {
-  overflow: hidden;
+  position: relative;
   display: block;
   margin-top: 30px;
   margin-bottom: 40px;
 }
 
+
+.intro {
+  overflow: hidden;
+}
 
 .intro img {
   float: left;
@@ -50,12 +54,13 @@ p {
   font-size: 16px;
   line-height: 1.4;
   text-align: left;
+  color: #000;
 }
 
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid black;
     margin:1em 0;
     padding:0;
@@ -71,20 +76,24 @@ hr {
   height: 100%;
   margin: 0 5px 0 0;
   padding: 0;
-  background: #666;
+  background-color: RGBA(100, 55, 116, .5);
   color: #ddd;
   text-align: center;
-  cursor: pointer;
 }
 
-.neo {
-  background: #C5528b !important;
-}
 
-.neo img {
+.header-image {
   float: left;
   margin-right: 30px;
   margin-left: 50px;
+}
+
+#icann-stewardship-thumbnails {
+  text-align: left;
+}
+
+#icann-stewardship-thumbnails a {
+  margin-right:20px;
 }
 
 .scrollbar {
@@ -105,4 +114,20 @@ hr {
   left: 0;
   width: 100%;
   height: 20px;
+}
+
+.forward, .backward {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.forward {
+  right: -40px;
+}
+
+.backward {
+  left: -40px;
 }

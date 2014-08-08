@@ -2,7 +2,6 @@ $(function() {
   var $frame = $('.frame');
   var $wrap  = $frame.parent();
 
-  // Call Sly on frame
   $frame.sly({
     horizontal: 1,
     itemNav: 'forceCentered',
@@ -18,6 +17,30 @@ $(function() {
     elasticBounds: 1,
     dragHandle: 1,
     dynamicHandle: 1,
-    clickBar: 1
+    clickBar: 1,
+    nextPage: $('.forward'),
+    prevPage: $('.backward')
+  });
+
+  $('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+
+    // Scroll to inline links
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 700, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+
+
+  // Fullscreen thumbnails
+  $('#icann-stewardship-thumbnails').Chocolat();
+
+  $(window).on('resize', function() {
+    $('.frame .slidee li').width($('.frame').width()-30);
   });
 });
