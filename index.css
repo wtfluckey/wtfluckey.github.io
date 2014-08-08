@@ -1,4 +1,42 @@
 body {
-  background-color: #999;
+  margin: 70px;
   font-family: Helvetica;
 }
+
+.container {
+  max-width: 960px;
+  padding: 5%;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  margin: 0 5%;
+  text-decoration: none;
+}
+
+.intro {
+  display: block;
+  margin: 40px 0;
+}
+
+.intro img {
+  float: left;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+
