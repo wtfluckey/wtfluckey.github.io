@@ -47,7 +47,9 @@ h1 {
 }
 
 p {
+  font-size: 16px;
   line-height: 1.4;
+  text-align: left;
 }
 
 hr {
@@ -62,17 +64,27 @@ hr {
 .frame { overflow: hidden; width: 100%; height: 450px; margin-bottom: 20px; padding: 0; }
 .frame .slidee { margin: 0; padding: 0; height: 100%; list-style: none; }
 .frame .slidee li {
-  overflow: hidden;
+  overflow: hidden
   position: relative;
   float: left;
-  width: 960px;
+  width: 930px;
   height: 100%;
-  margin: 0 1px 0 0;
+  margin: 0 5px 0 0;
   padding: 0;
-  background: #333;
+  background: #666;
   color: #ddd;
   text-align: center;
   cursor: pointer;
+}
+
+.neo {
+  background: #C5528b !important;
+}
+
+.neo img {
+  float: left;
+  margin-right: 30px;
+  margin-left: 50px;
 }
 
 .scrollbar {
