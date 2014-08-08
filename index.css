@@ -19,23 +19,27 @@ nav a {
   text-decoration: none;
 }
 
-.intro {
+section {
   display: block;
-  margin: 40px 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
+
 
 .intro img {
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
+  font-weight: 400;
   text-align: center;
   margin-bottom: 30px;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 
