@@ -116,6 +116,18 @@ hr {
   text-align: center;
 }
 
+.contact {
+  text-align: center;
+  font-size: 75px;
+}
+
+.contact a {
+  margin-right: 50px;
+}
+
+.contact a:hover {
+  color: #643774;
+}
 
 .scrollbar {
   margin: 0 0 1em 0;

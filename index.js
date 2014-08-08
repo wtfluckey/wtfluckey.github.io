@@ -22,6 +22,10 @@ $(function() {
     prevPage: $('.backward')
   });
 
+  $(window).resize(function(e) {
+        $frame.sly('reload');
+  });
+
   $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
 
