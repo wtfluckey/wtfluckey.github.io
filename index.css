@@ -87,10 +87,15 @@ hr {
   width: 890px;
   height: 100%;
   margin: 0 5px 0 0;
+  padding-top: 10px;
   padding-right: 30px;
   background-color: RGBA(100, 55, 116, .5);
   color: #ddd;
   text-align: center;
+}
+
+.frame a{
+  color: #fff;
 }
 
 
@@ -169,4 +174,9 @@ hr {
 
 .backward {
   left: -40px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
 }
