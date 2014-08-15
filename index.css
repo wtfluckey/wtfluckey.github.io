@@ -28,6 +28,19 @@ nav a {
   color: #643774;
 }
 
+nav a:hover {
+  -webkit-animation: dropdown .5s;
+  animation: dropdown .5s;
+}
+
+@-webkit-keyframes dropdown {
+  50% {-webkit-transform: translateY(5px);}
+}
+
+@keyframes dropdown {
+  50% {transform: translateY(5px);}
+}
+
 section {
   position: relative;
   display: block;
@@ -137,20 +150,18 @@ hr {
 
 .contact a:hover {
   color: #643774;
-  -webkit-animation: mymove .5s;
-  animation: mymove .5s;
+  -webkit-animation: wiggle .5s;
+  animation: wiggle .5s;
 }
 
-/* Code for Chrome, Safari and Opera */
-@-webkit-keyframes mymove {
+@-webkit-keyframes wiggle {
   20% {-webkit-transform: rotate(10deg);}
   40% {-webkit-transform: rotate(-10deg);}
   60% {-webkit-transform: rotate(10deg);}
   80% {-webkit-transform: rotate(-10deg);}
 }
 
-/* Standard syntax */
-@keyframes mymove {
+@keyframes wiggle {
   20% {transform: rotate(10deg);}
   40% {transform: rotate(-10deg);}
   60% {transform: rotate(10deg);}
