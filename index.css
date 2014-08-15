@@ -73,6 +73,8 @@ a {
 
 a:hover {
   color: #643774;
+  -webkit-animation: dropdown .5s;
+  animation: dropdown .5s;
 }
 
 strong {
