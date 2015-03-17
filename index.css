@@ -224,6 +224,10 @@ hr {
   display: none;
 }
 
+.mobile-link {
+  display: none;
+}
+
 footer {
   text-align: center;
   font-size: 12px;
@@ -234,12 +238,16 @@ footer {
     width: 85%;
   }
 
-  .my-work {
+  .my-work, .mobile-hide {
     display: none;
   }
 
   .my-work-mobile {
     display: block;
+  }
+
+  .mobile-link {
+    display: inline;
   }
 }
 
