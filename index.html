@@ -1,196 +1,31 @@
 <!DOCTYPE html>
+<!--
+  I see you in here, peepin' this code. Wanna talk? Email me at fluckeya@gmail.com
+-->
 <html>
 <head>
   <title>Aly Fluckey's Website</title>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Changa+One" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" type="text/css" href="chocolat.css">
   <meta name="viewport" content="initial-scale=1">
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <a href="#me">Me</a>
-      <a class="mobile-hide" href="#my-work">My Work</a>
-      <a class="mobile-link" href="#my-work-mobile">My Work</a>
-      <!-- <a href="#blog">Blog</a> -->
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <section class="intro" id="me">
-      <h1>Hi! My name is Aly Fluckey</h1>
-      <img src="images/aly.jpg" height="200">
-      <p>I am a front-end developer/designer currently working in Chicago for a company called 2Checkout! I have experience in a range of things, from Ruby/Rails to COBOL,
-      but my passion lies in the browser and in subjective things like color and type. I love building elegant solutions to complex problems and working with users and clients to make sure we are building the right thing.</p>
-      <p>My hobbies include learning new things, traveling as often as I can, painting not nearly as much as I would like, retweeting photos taken from the <a href="https://twitter.com/AstroSamantha" target="blank">ISS</a> and seeing my favorite bands live. 
-      I also may have a small obsession with lava lamps.</p>
-    </section>
-
-    <hr>
-
-    <section class="my-work" id="my-work">
-      <h1>My Work</h1>
-      <div class="backward"><i class="fa fa-angle-left"></i></div>
-      <div class="forward"><i class="fa fa-angle-right"></i></div>
-      <div class="frame">
-        <ul class="slidee">
-          <li class="falafel slidee">
-            <h1>Falafel Software</h1>
-            <div class="role-info">
-              <p><strong>Role:</strong> Front-end Developer</p>
-              <p>September 2014 - March 2015</p>
-              <p>Remote from Columbus, OH. Headquarters: Scotts Valley, CA</p>
-              <p><strong>Technologies and Responsibilities: </strong>
-                <ul class="inner-list">
-                  <li>HTML/CSS/JS/jQuery/CSS Animations</li>
-                  <li>Responsive Design</li>
-                  <li>Browser compatibility and testing using tools like Browserstack, Windows Virtual Machines, and implementing polyfills for older browsers</li>
-                  <li>Balancing multiple projects at a time, while working on internal projects and tools and still delivering on checkpoints and communicating blockers to client and team</li>
-                  <li>Content Management System integration with Sitefinity, Sitecore and others</li>
-                  <li>Frameworks like Bootstrap, Foundation and Kendo</li>
-                  <li>Version control using Git, Github, Visual Studio Online, TFS</li>
-                </ul>
-              </p>
-              <p><strong>Example Projects</strong>
-                <ul class="inner-list">
-                  <li><a href="http://www.centerlinedrivers.com/" target="blank">Centerline Drivers</a></li>
-                  <li><a href="http://flashcards.falafeldev.com/" target="blank">FlashCards App</a></li>
-                  <li><a href="http://falafel.com/" target="blank">Falafel Marketing Website</a></li>
-                </ul>
-              </p>
-            </div>
-          </li>
-          <li class="neo slidee">
-            <a href="http://www.neo.com" target="_blank"><h1>Neo Innovation<h1></a>
-            <div class="role-info">
-              <p>November 2012 - August 2014</p>
-              <p>Columbus, Ohio</p>
-              <p><strong>Role(s):</strong> Front-end Developer, Designer, Ruby on Rails Developer, Apprentice</p>
-              <p><strong>Technologies and Responsibilities: </strong>
-                <ul class="inner-list">
-                  <li>Ruby on Rails, HTML/HAML, CSS/SASS, JavaScript, Bourbon, Slim</li>
-                  <li>Responsive Design</li>
-                  <li>Prismic.io, Drupal integration from Rails</li>
-                  <li>Some experience with Middleman, Ember and Angular</li>
-                  <li>Access Management System and Door-programming hardware including Windows Mobile HHD & ibuttons</li>
-                  <li>Agile work environment</li>
-                </ul>
-              </p>
-              <p><strong>Example Projects</strong>
-                <ul class="inner-list">
-                  <li><a href="https://www.icann.org/stewardship" target="blank">ICANN.org Stewardship Pages</a></li>
-                  <li><a href="http://www.neo.com" target="blank">Neo Marketing Website</a></li>
-                  <li><a href="http://www.nexiahome.com/" target="blank">Nexia Home and Access Management</a></li>
-                </ul>
-              </p>
-            </div>
-          </li>
-
-          <li class="more slidee">
-            <h1>More Coming Soon!<h1>
-            <p>I am <em><strong>actively</strong></em> working on this website, so please check back often for updates! :)</p>
-            <p>In the meantime, feel free to check out my <a href="https://docs.google.com/document/d/1qYMrsoTtHMMiK1uDa9tOdp5fSaX6zKt3KVWN1jk0xAk/edit?usp=sharing" target="_blank">resume.</a></p>
-          </li>
-        </ul>
+  <div class="wrapper">
+    <div class="wrapper tilt">
+      <div class="background tilt" data-tilt data-tilt-perspective="10000">
       </div>
+      <div class="text">ALY</div>
+    </div>
 
-      <div class="scrollbar">
-        <div class="handle">
-          <div class="mousearea"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="my-work-mobile" id="my-work-mobile">
-      <div class="falafel">
-        <h1>Falafel Software</h1>
-        <div class="role-info">
-          <p><strong>Role:</strong> Front-end Developer</p>
-          <p>September 2014 - March 2015</p>
-          <p>Remote from Columbus, OH. Headquarters: Scotts Valley, CA</p>
-          <p><strong>Technologies and Responsibilities: </strong>
-            <ul class="inner-list">
-              <li>HTML/CSS/JS/jQuery/CSS Animations</li>
-              <li>Responsive Design</li>
-              <li>Browser compatibility and testing using tools like Browserstack, Windows Virtual Machines, and implementing polyfills for older browsers</li>
-              <li>Balancing multiple projects at a time, while working on internal projects and tools and still delivering on checkpoints and communicating blockers to client and team</li>
-              <li>Content Management System integration with Sitefinity, Sitecore and others</li>
-              <li>Frameworks like Bootstrap, Foundation and Kendo</li>
-              <li>Version control using Git, Github, Visual Studio Online, TFS</li>
-            </ul>
-          </p>
-          <p><strong>Example Projects</strong>
-            <ul class="inner-list">
-              <li><a href="http://www.centerlinedrivers.com/" target="blank">Centerline Drivers</a></li>
-              <li><a href="http://flashcards.falafeldev.com/" target="blank">FlashCards App</a></li>
-              <li><a href="http://falafel.com/" target="blank">Falafel Marketing Website</a></li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <hr>
-
-      <div class="neo">
-        <a href="http://www.neo.com" target="_blank"><h1>Neo Innovation<h1></a>
-        <div class="role-info">
-          <p>November 2012 - August 2014</p>
-          <p>Columbus, Ohio</p>
-          <p><strong>Role(s):</strong> Front-end Developer, Designer, Ruby on Rails Developer, Apprentice</p>
-          <p><strong>Technologies and Responsibilities: </strong>
-            <ul class="inner-list">
-              <li>Ruby on Rails, HTML/HAML, CSS/SASS, JavaScript, Bourbon, Slim</li>
-              <li>Responsive Design</li>
-              <li>Prismic.io, Drupal integration from Rails</li>
-              <li>Some experience with Middleman, Ember and Angular</li>
-              <li>Access Management System and Door-programming hardware including Windows Mobile HHD & ibuttons</li>
-              <li>Agile work environment</li>
-            </ul>
-          </p>
-          <p><strong>Example Projects</strong>
-            <ul class="inner-list">
-              <li><a href="https://www.icann.org/stewardship" target="blank">ICANN.org Stewardship Pages</a></li>
-              <li><a href="http://www.neo.com" target="blank">Neo Marketing Website</a></li>
-              <li><a href="http://www.nexiahome.com/" target="blank">Nexia Home and Access Management</a></li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <hr>
-
-      <div class="more">
-        <h1>More Coming Soon!<h1>
-        <p>I am <em><strong>actively</strong></em> working on this website, so please check back often for updates! :)</p>
-        <p>In the meantime, feel free to check out my <a href="https://docs.google.com/document/d/1qYMrsoTtHMMiK1uDa9tOdp5fSaX6zKt3KVWN1jk0xAk/edit?usp=sharing" target="_blank">resume.</a></p>
-      </div>
-    </section>
-
-    <!-- <section class="blog" id="blog"> -->
-    <!--   <h1>Blog</h1> -->
-    <!--   <p>Coming soon! My blog is currently under construction. Check back soon!</p> -->
-    <!-- </section> -->
-
-    <hr>
-
-    <section class="contact" id="contact">
-      <h1>Contact</h1>
-      <a href="https://github.com/wtfluckey" class="fa fa-github"></a>
-      <a href="https://twitter.com/wtfluckey" class="fa fa-twitter"</a>
-      <a href="http://instagram.com/wtfluckey" class="fa fa-instagram"></a>
-      <a href="http://thiselectricity.tumblr.com" class="fa fa-tumblr-square"></a>
-      <a href="mailto:fluckeya@gmail.com?Subject=Hello!" target="_top" class="fa fa-envelope"></a>
-    </section>
-
-    <footer>Site created by Aly Fluckey. <a href="https://github.com/wtfluckey/wtfluckey.github.io" target="_blank">View</a> the code.</footer>
+    <div class="copy">
+      <h1>- UX Developer</h1>
+      <h1>- Lives in Chicago</h1>
+      <h1>- Loves space, lava lamps and building cool 💩</h1>
+    </div>
   </div>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="sly.js"></script>
-  <script src="chocolat.js"></script>
-  <script src="index.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
 </body>
 
 </html>
