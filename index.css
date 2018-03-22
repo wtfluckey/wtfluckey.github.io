@@ -57,29 +57,43 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+  flex-direction: column;
+  align-items: center;
 }
 
+
 .contact__link {
-  font-size: 72px;
+  font-size: 48px;
   color: white;
   text-decoration: none;
-  margin: 0 30px;
+  margin: 30px ;
   transition: color .3s ease;
 }
 
-.contact__link:first-child {
-  margin-left: 0;
-}
 
-.contact__link:last-child {
-  margin-right: 0;
-}
- 
 .contact__link:hover {
   color: #91019e;
   transition: color .5s ease;
   -webkit-animation: wiggle .5s;
   animation: wiggle .5s;
+}
+
+@media screen and (min-width: 400px) {
+  .contact {
+    flex-direction: row;
+  }
+  
+  .contact__link {
+    margin: 0 30px;
+  }
+
+  .contact__link:first-child {
+    margin-left: 0;
+  }
+  
+  .contact__link:last-child {
+    margin-right: 0;
+  }
 }
 
 @-webkit-keyframes wiggle {
